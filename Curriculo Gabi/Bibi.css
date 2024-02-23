@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0PX;
+}
+
+:root {
+    --cor0: #2E7057;
+    --cor1: #038C3E;
+    --cor2: #FF2C20;
+    --cor3:#F2F2F2;
+    --cor4: #FFFFFF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor0);
+    text-align: center;
+    margin: 30px;
+}
+
+header > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-shadow: 2 px 2px rgba(0, 0, 0, 0.486);
+}
+
+body {
+    background-color: graylihgt
+}
+
+main {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 6px;
+    box-shadow: -0px -0px 100px rgba(0, 0, 0, 0.493);
+}
+
+img {
+    margin: auto;
+    padding-left: 160px;
+}
+
+.texto {
+    position: absolute;
+    left: 350px;
+    top: 165px;
+    color: black;
+    width: 100%;
+}
+
+.Titu {
+    background-color: var(--cor0);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#rede > a{
+    text-decoration: none;
+}
+
+#logo {
+    padding: 10px;
+    width: 50px;
+}
+
+#logo1 {
+    padding: 10px;
+    width: 80px;
+    position: absolute;
+    left: 179px;
+    bottom: -430px;
+}
+
+#Git {
+   margin-left: 12px;
+   font-size: 16px;
+}
+
+#Link {
+    font-size: 15px;
+    margin-left: 90px;
+    margin-top: -18px;
+}
+
+footer {
+    background-color: #2E7057;
+    color: #FFFFFF;
+    font-size: smaller;
+    text-align: center;
+}
